@@ -1,0 +1,101 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.invalid-feedback{
+    color: #000;
+}
+
+#TopbarStar {
+    background-color: #ff09ed;
+}
+
+ul #salir:hover{
+    background-color: #ff09ed;
+}
+
+div form{
+    margin: 10px;
+    padding: 25px;
+    background-color: #ff09ed;
+}
+
+div form div input{
+    background-color: #000;
+}
+nav .navbar {
+    /*background-image: linear-gradient(60deg,#000, #ff09ef,#000000,#ff09ef,#000000);*/
+    background-color: #000;
+    /*background-size: 100%;*/
+}
+h1{
+    text-align: center;
+}
+
+div .card{
+    background-color: #ff09ed;
+}
+
+#navegacion:hover {
+    background-color: #ff09ef;
+    border-radius: 50px;
+    transition: background-color 0.3s ease-in-out;
+}
+nav .navbar-toggler{
+    background-color: white;
+}
+
+#nombrePrimaria{
+    display: inline-block;
+    animation: encender-apagar 2s infinite;
+    opacity: 0;
+}
+
+@keyframes encender-apagar {
+    0%, 100% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 1;
+    }
+}
+
+#articleBoton:hover {
+    background-color: rgb(3, 84, 84);
+    color: black;
+}
+
+#articleBoton {
+    background-color: rgb(22, 71, 195);
+    color: white;
+}
+
+.service {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    -webkit-transition: opacity 0.5s ease, transform 0.5s ease;
+    -moz-transition: opacity 0.5s ease, transform 0.5s ease;
+    -ms-transition: opacity 0.5s ease, transform 0.5s ease;
+    -o-transition: opacity 0.5s ease, transform 0.5s ease;
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+}
+
+.service.is-visible {
+    opacity: 1;
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+
+#admin {
+    background-color: darkseagreen;
+}

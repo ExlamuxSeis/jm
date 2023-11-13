@@ -1,0 +1,30 @@
+.btn-color {
+    background-color: #000000;
+    color: #fff;
+    border: solid 2px black;
+}
+.btn-color:hover {
+    background-color: #b006a4;
+    color: #fff;
+    border: solid 2px black;
+}
+
+.profile-image-pic {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+body{
+    /*background-image: linear-gradient(50deg,#301210,#071e28, #490b4d, #370b03);
+    background-color: black;*/
+    background-image: linear-gradient(50deg,#000000,#000000, #490b4d,#b006a4);
+}
+
+.cardbody-color {
+    background-color: #b006a4;
+}
+
+a {
+    text-decoration: none;
+}

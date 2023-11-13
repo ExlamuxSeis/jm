@@ -1,0 +1,26 @@
+body {
+    background-image: linear-gradient(90deg, #232336, #132844, #ffc107, #411826);
+    background-size: 500%;
+}
+
+div.Datos {
+    background-image: linear-gradient(90deg, #096088, #442479);
+    background-size: 100%;
+}
+
+div.salario {
+    background-image: linear-gradient(90deg, #39a7da, #074a61);
+    background-size: 100%;
+}
+
+button#enviar {
+    background-image: linear-gradient(90deg, #ff5722, #ff9800);
+    background-size: 100%;
+    color: white;
+}
+
+a#inicio {
+    background-image: linear-gradient(90deg, #e91e63, #9c27b0);
+    background-size: 100%;
+    color: white;
+}
